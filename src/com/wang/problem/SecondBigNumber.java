@@ -1,6 +1,13 @@
 package com.wang.problem;
 
 public class SecondBigNumber {
+
+
+    /**
+     * 得到一个整数数组的第二大的元素
+     * @param values 整数数组
+     * @return 第二大数字
+     */
     public int getSecondBig(int[] values){
 
         if(values == null || values.length < 2){
