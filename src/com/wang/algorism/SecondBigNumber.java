@@ -1,4 +1,4 @@
-package com.wang.problem;
+package com.wang.algorism;
 
 public class SecondBigNumber {
 

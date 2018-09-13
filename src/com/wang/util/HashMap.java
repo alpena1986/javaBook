@@ -127,16 +127,22 @@ public class HashMap<K, V> {
         // 循环整个哈希表
         for(Entry e : oldTable){
 
-            // 遍历整个bucket
+            // 遍历整个bucket的所有Entry
             while(e != null){
+
+                // 先取得next的目的是，接下来e的next会发生变化，只能事先取得备用。
                 Entry next = e.next;
 
-                // 把这个entry插入到链表的最前面。
+                /*
+                 * 把这个entry插入到新的table中，对应的bucket中的链表的最前面。
+                  */
+                // 求得新的哈希值
                 int hash = hash(e.key);
                 int i = indexFor(hash, newTable.length);
                 e.next = newTable[i];
                 newTable[i] = e;
 
+                // 处理Bucket中的下一个Entry
                 e = next;
             }
         }
