@@ -12,7 +12,7 @@ public class CyclicBarrierDemo {
                     10,
                     60,
                     TimeUnit.SECONDS,
-                    new LinkedBlockingQueue<>(),
+                    new LinkedBlockingQueue<>(10),
                     new ThreadFactory() {
                         private final AtomicInteger threadNumber = new AtomicInteger(1);
                         @Override
