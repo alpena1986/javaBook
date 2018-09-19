@@ -4,7 +4,8 @@ public class AbsSorting {
 
     public static void main(String[] args) {
 
-        int[] integerValues = new int[]{-2, 9, -1, 2, -5, 1, 7, 0, -1, -3, -2, 16, -4, 15, 14, 13, -33};
+        // int[] integerValues = new int[]{-2, 9, -1, 2, -5, 1, 7, 0, -1, -3, -2, 16, -4, 15, 14, 13, -33};
+        int[] integerValues = new int[]{-2, 9, -1, 2, -5, 1, 7};
         // 冒泡排序
         // absBubbleSort(integerValues);
 
@@ -12,7 +13,10 @@ public class AbsSorting {
         // fastSort(integerValues, 0, integerValues.length - 1);
 
         // 插入排序
-        insertSort(integerValues);
+        // insertSort(integerValues);
+
+        // 希尔排序
+        shellSort(integerValues);
 
         for (int integerValue : integerValues) {
             System.out.print(integerValue + ",");
@@ -20,6 +24,36 @@ public class AbsSorting {
         System.out.println("");
 
 
+    }
+
+    /* function to sort arr using shellSort */
+    private static int shellSort(int arr[]) {
+        int n = arr.length;
+
+        // Start with a big gap, then reduce the gap
+        for (int gap = n / 2; gap > 0; gap /= 2) {
+            // Do a gapped insertion sort for this gap size.
+            // The first gap elements a[0..gap-1] are already
+            // in gapped order keep adding one more element
+            // until the entire array is gap sorted
+            for (int i = gap; i < n; i += 1) {
+                // add a[i] to the elements that have been gap
+                // sorted save a[i] in temp and make a hole at
+                // position i
+                int temp = arr[i];
+
+                // shift earlier gap-sorted elements up until
+                // the correct location for a[i] is found
+                int j;
+                for (j = i; j >= gap && arr[j - gap] > temp; j -= gap)
+                    arr[j] = arr[j - gap];
+
+                // put temp (the original a[i]) in its correct
+                // location
+                arr[j] = temp;
+            }
+        }
+        return 0;
     }
 
     // 插入排序
@@ -31,10 +65,10 @@ public class AbsSorting {
             int iValue = values[i];
             // 跟所有的之前的元素相比
             // 这里注意是 >= 0
-            for (int j = i -1; j >= 0; j--) {
+            for (int j = i - 1; j >= 0; j--) {
                 if (iValue < values[j]) {
                     swapValue(values, j, j + 1);
-                } else{
+                } else {
                     break;
                 }
             }
