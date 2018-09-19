@@ -102,7 +102,8 @@ public class AbsSorting {
         // 在pivotIndex的右侧找小值，或者在pivotIndex的左侧找大值
         // 这是一个循环并且交替进行的操作
         while (i < j) {
-            if (i == pivotIndex) { // 代表刚移动过左方下标，也就是i
+            if (i == pivotIndex) {
+            // 代表刚移动过左方下标，也就是i
                 // 在pivotIndex右侧寻找比pivot小的值
                 // 此处要注意的是，一定要找到小，而不是小于等于的。
                 // 否则就陷入死循环
@@ -114,7 +115,8 @@ public class AbsSorting {
                     swapValue(values, j, pivotIndex);
                     pivotIndex = j;
                 }
-            } else if (values[j] == pivot) { // 代表刚移动过右方下标，也就是j
+            } else if (values[j] == pivot) {
+            // 代表刚移动过右方下标，也就是j
                 // 在pivotIndex左侧寻找比pivot大的值
                 // 此处要注意的是，一定要找到大，而不是小于等于的。
                 // 否则就陷入死循环
