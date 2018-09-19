@@ -1,16 +1,3 @@
-/**
- * All rights Reserved, Designed By www.freemud.cn
- *
- * @Title: AbsSorting
- * @Package com.wang.algorism
- * @Description:
- * @author: zhiqiang.wang
- * @date: 2018/9/19 10:31
- * @version V1.0
- * @Copyright: 2018 www.freemud.cn Inc. All rights reserved.
- * <p>
- * 注意：本内容仅限于上海非码科技内部传阅，禁止外泄以及用于其他的商业目
- */
 package com.wang.algorism;
 
 public class AbsSorting {
@@ -18,14 +5,40 @@ public class AbsSorting {
     public static void main(String[] args) {
 
         int[] integerValues = new int[]{-2, 9, -1, 2, -5, 1, 7, 0, -1, -3, -2, 16, -4, 15, 14, 13, -33};
+        // 冒泡排序
         // absBubbleSort(integerValues);
-        fastSort(integerValues, 0, integerValues.length - 1);
+
+        // 快排序
+        // fastSort(integerValues, 0, integerValues.length - 1);
+
+        // 插入排序
+        insertSort(integerValues);
+
         for (int integerValue : integerValues) {
             System.out.print(integerValue + ",");
         }
         System.out.println("");
 
 
+    }
+
+    // 插入排序
+    private static void insertSort(int[] values) {
+        int size = values.length;
+
+        // 从第2个元素开始
+        for (int i = 1; i < size; i++) {
+            int iValue = values[i];
+            // 跟所有的之前的元素相比
+            // 这里注意是 >= 0
+            for (int j = i -1; j >= 0; j--) {
+                if (iValue < values[j]) {
+                    swapValue(values, j, j + 1);
+                } else{
+                    break;
+                }
+            }
+        }
     }
 
     private static void absBubbleSort(int[] values) {
@@ -60,7 +73,7 @@ public class AbsSorting {
                     j--;
                 }
                 // 如果找到了
-                 if (j > pivotIndex) {
+                if (j > pivotIndex) {
                     swapValue(values, j, pivotIndex);
                     pivotIndex = j;
                 }
