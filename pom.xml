@@ -7,7 +7,11 @@
     <!-- 基本设置 The Basics -->
     <groupId>com.wang</groupId>
     <artifactId>javaBook</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
+    <modules>
+        <module>springbootstudy</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>io.netty</groupId>
