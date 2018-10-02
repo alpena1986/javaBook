@@ -29,7 +29,7 @@ public class AbsSorting {
     /**
      * 希尔排序
      * */
-    private static int shellSort(int arr[]) {
+    private static void shellSort(int arr[]) {
         int len = arr.length;
 
         // Start with a big gap, then reduce the gap
@@ -38,6 +38,7 @@ public class AbsSorting {
             // The first gap elements a[0..gap-1] are already
             // in gapped order keep adding one more element
             // until the entire array is gap sorted
+            //
             for (int i = gap; i < len; i += 1) {
                 // add a[i] to the elements that have been gap
                 // sorted save a[i] in temp and make a hole at
@@ -46,6 +47,11 @@ public class AbsSorting {
 
                 // shift earlier gap-sorted elements up until
                 // the correct location for a[i] is found
+                // 以i为基点
+                // 把相隔gap的这些元素做选择排序
+                /*
+                 * 选择排序开始
+                 */
                 int j;
                 for (j = i; j >= gap && arr[j - gap] > temp; j -= gap) {
                     arr[j] = arr[j - gap];
@@ -54,16 +60,33 @@ public class AbsSorting {
                 // put temp (the original a[i]) in its correct
                 // location
                 arr[j] = temp;
+                /*
+                 * 选择排序结束
+                 */
             }
         }
-        return 0;
     }
 
-    // 插入排序
+    /** 插入排序
+     *  从第2个元素开始做处理，一直处理到最后一个元素
+     *  做什么处理呢？
+     *  就是保证这个元素前面的序列是有序的
+     *  那假如是1,2,4,5,6,3
+     *  当处理到最后一个元素的时候
+     *  处理是这样的
+     *  首先变成
+     *  1,2,4,5,3,6
+     *  然后变成
+     *  1,2,4,3,5,6
+     *  然后变成
+     *  1,2,3,4,5,6
+     *  最后发现3比2大
+     *  处理结束
+     */
     private static void insertSort(int[] values) {
         int size = values.length;
 
-        // 从第2个元素开始
+        // 从第2个元素开始，所以不是i=0开始
         for (int i = 1; i < size; i++) {
             int iValue = values[i];
             // 跟所有的之前的元素相比
@@ -103,8 +126,7 @@ public class AbsSorting {
         // 在pivotIndex的右侧找小值，或者在pivotIndex的左侧找大值
         // 这是一个循环并且交替进行的操作
         while (i < j) {
-            if (i == pivotIndex) {
-            // 代表刚移动过左方下标，也就是i
+            if (i == pivotIndex) {// 代表刚移动过左方下标，也就是i
                 // 在pivotIndex右侧寻找比pivot小的值
                 // 此处要注意的是，一定要找到小，而不是小于等于的。
                 // 否则就陷入死循环
@@ -116,8 +138,7 @@ public class AbsSorting {
                     swapValue(values, j, pivotIndex);
                     pivotIndex = j;
                 }
-            } else if (values[j] == pivot) {
-            // 代表刚移动过右方下标，也就是j
+            } else if (values[j] == pivot) {// 代表刚移动过右方下标，也就是j
                 // 在pivotIndex左侧寻找比pivot大的值
                 // 此处要注意的是，一定要找到大，而不是小于等于的。
                 // 否则就陷入死循环
