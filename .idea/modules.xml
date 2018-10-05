@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/javaBook.iml" filepath="$PROJECT_DIR$/javaBook.iml" />
       <module fileurl="file://$PROJECT_DIR$/javabookjava7/javabookjava7.iml" filepath="$PROJECT_DIR$/javabookjava7/javabookjava7.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootstudy/springbootstudy.iml" filepath="$PROJECT_DIR$/springbootstudy/springbootstudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvcstudy/springmvcstudy.iml" filepath="$PROJECT_DIR$/springmvcstudy/springmvcstudy.iml" />
     </modules>
   </component>
 </project>

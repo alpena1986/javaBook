@@ -1,6 +1,6 @@
 package com.wang.util;
 
-public class HashMap<K, V> {
+public class WangHashMap<K, V> {
 
 
     private static class Entry<K,V>{
@@ -37,7 +37,7 @@ public class HashMap<K, V> {
     /** 并非table的size，而是Map中所有entry的数量*/
     private int size = 0;
 
-    public HashMap(){
+    public WangHashMap(){
     }
 
 

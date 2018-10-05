@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="javabookjava7" />
         <module name="springbootstudy" />
+        <module name="springmvcstudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="javaBook" target="1.8" />
       <module name="javabookjava7" target="1.7" />
       <module name="springbootstudy" target="1.8" />
+      <module name="springmvcstudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

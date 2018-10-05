@@ -17,6 +17,7 @@
     </parent>
     <modules>
         <module>springbootstudy</module>
+        <module>springmvcstudy</module>
     </modules>
     <dependencies>
         <dependency>
