@@ -82,7 +82,7 @@ public class AlibabaFeizhuTest {
     }
 
     public static void main(String[] args){
-        for(int i = 0; i< 3; i++){
+        for(int i = 0; i< 30023; i++){
             insert(new Object());
         }
 
