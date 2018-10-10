@@ -8,17 +8,27 @@ import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketAddress;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 演示经典的BIO的使用方法
  */
-public class ClassicBIO {
+public class ClassicBIOServer {
 
     public static void main(String[] args) {
 
-        ExecutorService executor = Executors.newFixedThreadPool(5);//线程池
+        // 线程池
+        ExecutorService executor = new ThreadPoolExecutor(5, 5, 10, TimeUnit.SECONDS,
+                new ArrayBlockingQueue<>(10), new ThreadFactory() {
+            AtomicInteger counter = new AtomicInteger();
+            @Override
+            public Thread newThread(Runnable r) {
+                return new Thread(r, "POOL_" + counter.incrementAndGet());
+            }
+        });
+
+
         ServerSocket serverSocket = null;
 
         try {
@@ -59,7 +69,10 @@ public class ClassicBIO {
             this.socket = socket;
         }
 
+        @Override
         public void run() {
+            // 要响应interrupt指令
+            // 如果socket未被关闭，就死循环
             while (!Thread.currentThread().isInterrupted() && !socket.isClosed()) {
                 //死循环处理读写事件
                 //读取数据
@@ -76,6 +89,7 @@ public class ClassicBIO {
                     e.printStackTrace();
                 }
             }
+            log("disconnected");
         }
     }
 
