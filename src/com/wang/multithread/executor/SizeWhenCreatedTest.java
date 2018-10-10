@@ -13,7 +13,6 @@ public class SizeWhenCreatedTest {
 
     public static void main(String[] args){
 
-        AtomicInteger counter = new AtomicInteger();
         ExecutorService executorService = new ThreadPoolExecutor(
                 10,
                 10,
@@ -21,6 +20,7 @@ public class SizeWhenCreatedTest {
                 TimeUnit.SECONDS,
                 new ArrayBlockingQueue<>(100),
                 new ThreadFactory() {
+                    AtomicInteger counter = new AtomicInteger();
                     @Override
                     public Thread newThread(Runnable r) {
                         return new Thread(r, "SizeWhenCreatedTestPool_" + counter.incrementAndGet());
