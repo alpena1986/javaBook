@@ -1,10 +1,5 @@
 package com.wang.designpattern;
 
-import sun.nio.ch.ThreadPool;
-
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.ThreadPoolExecutor;
-
 public class MySingletonClass {
 
     private MySingletonClass(){};
