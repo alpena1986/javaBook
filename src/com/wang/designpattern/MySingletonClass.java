@@ -2,7 +2,10 @@ package com.wang.designpattern;
 
 public class MySingletonClass {
 
-    private MySingletonClass(){};
+    public int field;
+    private MySingletonClass(){
+        field = 19;
+    };
 
     private static Object instance;
 
@@ -18,7 +21,10 @@ public class MySingletonClass {
     }
 
 
-    public static void main(String[] args){
 
+
+    public static void main(String[] args){
+        MySingletonClass.getInstance();
     }
+
 }
