@@ -17,7 +17,7 @@ public class GirlController {
         this.girlService = service;
     }
 
-    @RequestMapping(path = "/makeTrouble")
+    @RequestMapping(path = "/make")
     public HashMap<String, Object> makeTrouble(){
         HashMap<String, Object> result = new HashMap<>(4);
         girlService.makeTrouble();

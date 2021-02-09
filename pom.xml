@@ -25,6 +25,16 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.24.Final</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.2-jre</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
     </dependencies>
     <build>
         <!-- finalName指定打包生成的文件名，默认为工程名-版本号 -->

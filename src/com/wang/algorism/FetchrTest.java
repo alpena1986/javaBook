@@ -2,14 +2,14 @@ package com.wang.algorism;
 
 public class FetchrTest {
     public static void main(String[] args){
-        int[] values = args[0];
-        int target = args[1];
-        System.out.println(findTarget(values, target));
+//        int[] values = args[0];
+//        int target = args[1];
+//        System.out.println(findTarget(values, target));
     }
 
     public int findTarget(int[] values, int target){
 
-        int startIndex = 0, endIndex = values.length - 1,
+        int startIndex = 0, endIndex = values.length - 1;
         int index = -1;
         while(true){
             if(startIndex == endIndex && values[startIndex] == target){

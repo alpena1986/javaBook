@@ -1,5 +1,8 @@
 package com.wang.algorism.leetcode.arraynumberadd;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -13,62 +16,47 @@ package com.wang.algorism.leetcode.arraynumberadd;
 
 
 class Solution {
-    public static void main(String[] args) {
-        ListNode l1 = new ListNode(2);
-        ListNode tmp1 = l1;
-        for (int i = 0; i < 11; i++) {
-            ListNode a = new ListNode(2);
-            tmp1.next = a;
-            tmp1 = a;
-        }
 
-
-        ListNode l2 = new ListNode(2);
-        ListNode tmp = l2;
-        for (int i = 0; i < 11; i++) {
-            ListNode a = new ListNode(2);
-            tmp.next = a;
-            tmp = a;
-        }
-        ListNode listNode = addTwoNumbers(l1, l2);
-
-        int c = 0;
-        c++;
-    }
-
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        long intNumber = getIntNumber(l1);
-        long intNumber1 = getIntNumber(l2);
-        long sum = intNumber + intNumber1;
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        BigDecimal intNumber = getNumeric(l1);
+        BigDecimal intNumber1 = getNumeric(l2);
+        BigDecimal sum = intNumber.add(intNumber1);
         return constructNode(sum);
     }
 
-    public static long getIntNumber(ListNode l1) {
-        long v = 0;
-        long dim = 1L;
+    /**
+     * 从链表中获取数值
+     * @param l1
+     * @return
+     */
+    public BigDecimal getNumeric(ListNode l1) {
+        BigDecimal value = BigDecimal.ZERO;
+        BigDecimal times = BigDecimal.ONE;
         while (l1 != null) {
-            v += ((long) l1.val * dim);
+            value = value.add(times.multiply(new BigDecimal(l1.val)));
             l1 = l1.next;
-            dim = dim * 10;
+            times = times.multiply(new BigDecimal(10));
         }
-        return v;
+        return value;
     }
 
-    public static ListNode constructNode(long val) {
+    public ListNode constructNode(BigDecimal numberValue) {
         ListNode root = null;
         ListNode cur = null;
-        int dim = 10;
-        while(val > 0){
-            int num = Math.toIntExact(val % dim);
+
+        int divisor = 10;
+
+        while(numberValue.compareTo(BigDecimal.ZERO) > 0){
+            BigDecimal num = numberValue.divideAndRemainder(new BigDecimal(divisor))[1];
             if(root == null){
-                root = new ListNode(num);
+                root = new ListNode(num.intValue());
                 cur = root;
             } else {
-                ListNode next = new ListNode(num);
+                ListNode next = new ListNode(num.intValue());
                 cur.next = next;
                 cur = next;
             }
-            val = val / 10;
+            numberValue = numberValue.divide(new BigDecimal(10), RoundingMode.DOWN);
         }
 
         if(root == null) {
