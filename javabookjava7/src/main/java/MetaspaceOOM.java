@@ -1,10 +1,12 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class MetaspaceOOM {
 
     public static void main(String[] args){
 
+        HashMap a = new HashMap();
         //保持引用，防止自动垃圾回收
         List<String> list = new ArrayList<>();
 

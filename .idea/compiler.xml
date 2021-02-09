@@ -13,10 +13,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="javaBook" target="1.8" />
+      <module name="javaBook" target="1.7" />
       <module name="javabookjava7" target="1.7" />
-      <module name="springbootstudy" target="1.8" />
-      <module name="springmvcstudy" target="1.8" />
+      <module name="springbootstudy" target="1.7" />
+      <module name="springmvcstudy" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

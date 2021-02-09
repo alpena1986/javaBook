@@ -5,44 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8526b3a4-53db-4c6c-8116-ce2236022774" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wang/WaitNotifyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wang/algorism/leetcode/arraynumberadd/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wang/performance/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wang/bitopt/BitMoveOpt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wang/bitopt/Buma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/one_publish_conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/one_publish_conf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaBook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabookjava7/src/main/java/MetaspaceOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/javabookjava7/src/main/java/MetaspaceOOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootstudy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springbootstudy/springbootstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/springbootstudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootstudy/src/main/java/com/wang/springbootstudy/controller/GirlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/src/main/java/com/wang/springbootstudy/controller/GirlController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootstudy/src/main/java/com/wang/springbootstudy/service/GirlServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/src/main/java/com/wang/springbootstudy/service/GirlServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootstudy/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootstudy/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootstudy/target/classes/com/wang/springbootstudy/StudyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/target/classes/com/wang/springbootstudy/StudyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootstudy/target/classes/com/wang/springbootstudy/controller/GirlController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/target/classes/com/wang/springbootstudy/controller/GirlController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootstudy/target/classes/com/wang/springbootstudy/service/GirlServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/target/classes/com/wang/springbootstudy/service/GirlServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springmvcstudy/springmvcstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcstudy/springmvcstudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wang/algorism/FetchrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wang/algorism/FetchrTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wang/algorism/leetcode/arraynumberadd/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wang/algorism/leetcode/arraynumberadd/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wang/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/string/StringTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +145,20 @@
         <option value="$PROJECT_DIR$/src/com/wang/algorism/Test.java" />
         <option value="$PROJECT_DIR$/src/com/wang/algorism/FetchrTest.java" />
       </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="springbootstudy/invalid/Spring" />
+      <facet id="springbootstudy/invalid/Web" />
+      <facet id="springmvcstudy/invalid/Spring" />
+    </ignored-facets>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -341,7 +329,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -355,13 +343,13 @@
       <recent name="com.wang.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringTest">
-    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wang.performance.LambdaTest" />
+  <component name="RunManager" selected="Application.BitMoveOpt">
+    <configuration name="BitMoveOpt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.bitopt.BitMoveOpt" />
       <module name="javaBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.performance.*" />
+          <option name="PATTERN" value="com.wang.bitopt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,12 +357,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wang.algorism.leetcode.arraynumberadd.Main" />
+    <configuration name="Buma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.bitopt.Buma" />
       <module name="javaBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.algorism.leetcode.arraynumberadd.*" />
+          <option name="PATTERN" value="com.wang.bitopt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.performance.LambdaTest" />
+      <module name="javaBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.performance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,19 +409,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitNotifyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wang.WaitNotifyTest" />
-      <module name="javaBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springbootstudy" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wang.springbootstudy.StudyApplication" />
@@ -429,19 +417,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.WaitNotifyTest" />
       <item itemvalue="Application.LambdaTest" />
       <item itemvalue="Application.StudyApplication" />
       <item itemvalue="Application.StringTest" />
+      <item itemvalue="Application.Buma" />
+      <item itemvalue="Application.BitMoveOpt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BitMoveOpt" />
+        <item itemvalue="Application.Buma" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.StudyApplication" />
         <item itemvalue="Application.LambdaTest" />
-        <item itemvalue="Application.WaitNotifyTest" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
