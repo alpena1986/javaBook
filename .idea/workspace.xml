@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8526b3a4-53db-4c6c-8116-ce2236022774" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wang/bitopt/BitMoveOpt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wang/bitopt/Buma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wang/algorism/leetcode/CheckInclusion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wang/algorism/leetcode/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wang/algorism/leetcode/addInt/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wang/algorism/leetcode/maxNonDuplicateSubStr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wang/multithread/deadlock/DeadLockWithReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wang/multithread/deadlock/DeadLockWithSynchronized.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/one_publish_conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/one_publish_conf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabookjava7/src/main/java/MetaspaceOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/javabookjava7/src/main/java/MetaspaceOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootstudy/springbootstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootstudy/springbootstudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvcstudy/springmvcstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcstudy/springmvcstudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/string/StringTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +320,8 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="populateBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory#populateBean&#10;initializeBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.AutowireCapableBeanFactory#initializeBean&#10;ServletContainerInitializer&#9;PSI&#9;JAVA://javax.servlet.ServletContainerInitializer&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;ConcurrentSkipMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;SqlSession.java&#9;FILE&#9;jar:///Users/alpena/.m2/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/SqlSession.java&#10;SqlSessionFa&#9;PSI&#9;JAVA://org.mybatis.spring.SqlSessionFactoryBean&#10;ProxyFactory&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactory&#10;BeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;BufferedInputStream&#9;PSI&#9;JAVA://java.io.BufferedInputStream&#10;dump&#9;ACTION&#9;Console.TableResult.DumpGroup&#10;AbstractQueuedSynchronizer&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;TreeSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/TreeSet.java&#10;Map.java&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;Set&#9;PSI&#9;JAVA://java.util.Set&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;SortedMap&#9;PSI&#9;JAVA://java.util.SortedMap&#10;SkipMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;ConditionalOnClass&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.condition.ConditionalOnClass&#10;spring.factories&#9;FILE&#9;jar:///Users/alpena/.m2/repository/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE.jar!/META-INF/spring.factories&#10;SpringServletContainerInitializer&#9;FILE&#9;jar:///Users/alpena/.m2/repository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/SpringServletContainerInitializer.java&#10;DispatcherServlet&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration&#10;AnnotationAwareAspectJAutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;invokeWithinTransaction&#9;PSI&#9;JAVA://org.springframework.transaction.interceptor.TransactionAspectSupport#invokeWithinTransaction&#10;TransactionAutoConfiguration&#9;FILE&#9;jar:///Users/alpena/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration.java&#10;ProxyTransactionManagementConfiguration&#9;PSI&#9;JAVA://org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#10;TransactionInte&#9;FILE&#9;jar:///Users/alpena/.m2/repository/org/springframework/spring-tx/5.0.9.RELEASE/spring-tx-5.0.9.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java&#10;TransactionInterceptor&#9;PSI&#9;JAVA://org.springframework.transaction.interceptor.TransactionInterceptor&#10;DefaultAopProxyFactory&#9;PSI&#9;JAVA://org.springframework.aop.framework.DefaultAopProxyFactory&#10;JdkDynamicAopProxy&#9;PSI&#9;JAVA://org.springframework.aop.framework.JdkDynamicAopProxy&#10;WebSecurityConfigurerAdapter&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.oauth2.client.OAuth2WebSecurityConfiguration.OAuth2WebSecurityConfigurerAdapter" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -337,19 +338,20 @@
       <recent name="$PROJECT_DIR$/src/com/wang/network/io/netty/echoclient" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wang.multithread.deadlock" />
       <recent name="" />
       <recent name="com.wang.multithread.lock" />
       <recent name="com.wang.multithread" />
       <recent name="com.wang.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BitMoveOpt">
-    <configuration name="BitMoveOpt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wang.bitopt.BitMoveOpt" />
+  <component name="RunManager" selected="Application.DeadLockWithReentrantLock">
+    <configuration name="CheckInclusion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.algorism.leetcode.CheckInclusion" />
       <module name="javaBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.bitopt.*" />
+          <option name="PATTERN" value="com.wang.algorism.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Buma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wang.bitopt.Buma" />
+    <configuration name="DeadLockWithReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.multithread.deadlock.DeadLockWithReentrantLock" />
       <module name="javaBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.bitopt.*" />
+          <option name="PATTERN" value="com.wang.multithread.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wang.performance.LambdaTest" />
+    <configuration name="DeadLockWithSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.multithread.deadlock.DeadLockWithSynchronized" />
       <module name="javaBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.performance.*" />
+          <option name="PATTERN" value="com.wang.multithread.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,12 +385,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wang.string.StringTest" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.algorism.leetcode.LongestCommonPrefix" />
       <module name="javaBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.string.*" />
+          <option name="PATTERN" value="com.wang.algorism.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,12 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wang.springbootstudy.StudyApplication" />
-      <module name="springbootstudy" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.algorism.leetcode.maxNonDuplicateSubStr.Main" />
+      <module name="javaBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.springbootstudy.*" />
+          <option name="PATTERN" value="com.wang.algorism.leetcode.maxNonDuplicateSubStr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,19 +419,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LambdaTest" />
-      <item itemvalue="Application.StudyApplication" />
-      <item itemvalue="Application.StringTest" />
-      <item itemvalue="Application.Buma" />
-      <item itemvalue="Application.BitMoveOpt" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.LongestCommonPrefix" />
+      <item itemvalue="Application.CheckInclusion" />
+      <item itemvalue="Application.DeadLockWithSynchronized" />
+      <item itemvalue="Application.DeadLockWithReentrantLock" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BitMoveOpt" />
-        <item itemvalue="Application.Buma" />
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.StudyApplication" />
-        <item itemvalue="Application.LambdaTest" />
+        <item itemvalue="Application.DeadLockWithReentrantLock" />
+        <item itemvalue="Application.DeadLockWithSynchronized" />
+        <item itemvalue="Application.CheckInclusion" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>

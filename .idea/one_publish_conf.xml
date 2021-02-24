@@ -5,7 +5,7 @@
       <CommonInfo>
         <option name="autoUpdate" value="1" />
         <option name="checkedAppName" value="false" />
-        <option name="chromeVersion" value="88.0.4324.150" />
+        <option name="chromeVersion" value="88.0.4324.192" />
         <option name="chromeWebDriverUrl" value="https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_mac64.zip" />
         <option name="identifier" value="macosx-10.16-b-6431ml85-2338.local-2021012722" />
         <option name="projectName" value="javaBook" />
