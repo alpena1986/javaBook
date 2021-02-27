@@ -10,13 +10,11 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-        List<String> zombies = new ArrayList<>();
-        zombies.add("1100");
-        zombies.add("1110");
-        zombies.add("0110");
-        zombies.add("0001");
-        int c = zombieCluster(zombies);
-        int d = 1;
+        System.out.println( -111 % 10);
+        System.out.println(-11/ 10);
+
+        Deque<String> a = new ArrayDeque<String>();
+        String.join(",", a);
     }
 
 
